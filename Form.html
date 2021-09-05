@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 1 form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="form">
+            <div  id="header">
+            <p>Contact Us</p>
+            </div>
+            <form>
+                <input type="text" name="yourname" placeholder="Your Name" required>
+                <br>
+                <input type="email"name="emailaddress" placeholder="Email Address" required>
+                <br>
+                <input type="tel" name="phonenumber" placeholder="Phone Number" pattern="[0-9]{10}" required>
+                <br>
+                <textarea name="message" rows="10" cols="10">Type Your Message</textarea>
+                <br>
+                <input type="submit" name="submit" value="submit">
+            </form>
+        </div>
+    </body>
+</html>
